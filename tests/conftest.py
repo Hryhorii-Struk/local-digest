@@ -2,7 +2,7 @@ import os
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 root_dir_content = os.listdir(BASE_DIR)
-PROJECT_DIR_NAME = 'yatube'
+PROJECT_DIR_NAME = 'local-digest'
 MANAGE_PATH = os.path.join(BASE_DIR, PROJECT_DIR_NAME)
 # проверяем, что в корне репозитория лежит папка с проектом
 if (
